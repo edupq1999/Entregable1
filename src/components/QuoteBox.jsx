@@ -2,7 +2,7 @@ import React from 'react'
 import Button from './button'
 import './quotestyle.css'
 
-const QuoteBox = ({randomData, randomColor}) => {
+const QuoteBox = ({randomData, randomColor, nextInfo}) => {
     
     const visualColor = randomColor
 
@@ -12,6 +12,7 @@ const QuoteBox = ({randomData, randomColor}) => {
         <h1 className='card_autor'>{randomData.author}</h1>
         <Button 
             randomColor={visualColor}
+            nextInfo={nextInfo}
         />
     </article>
   )

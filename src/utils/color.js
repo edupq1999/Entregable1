@@ -6,7 +6,6 @@ export default function colors(){
         color += number[(Math.floor(Math.random() * 16))]
     }
     const visualColor = color;
-    console.log(color);
     color = '#'
     
     return visualColor
