@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from './button'
 import './quotestyle.css'
 
 const QuoteBox = ({randomData, randomColor, nextInfo}) => {
