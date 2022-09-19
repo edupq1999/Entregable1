@@ -1,3 +1,4 @@
+
 *{
   margin: 0;
   padding: 0;
@@ -10,4 +11,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.container{
+  background-color: aliceblue;
+  width: 50%;
+  border-radius: 15px;
+  padding: 15px;
+  
 }

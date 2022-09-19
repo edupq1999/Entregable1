@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import QuoteBox from './components/QuoteBox'
+import Button from './components/Button'
 import data from './json/quotes.json'
 import colors from './utils/color.js'
 
@@ -21,11 +22,17 @@ function App() {
 
   return (
     <div style={{backgroundColor: visualColor}} className="App">
-      <QuoteBox 
-        randomData={randomData}
-        randomColor={visualColor}
-        nextInfo={nextInfo}
-      />
+      <article className='container'>
+        <QuoteBox 
+          randomData={randomData}
+          randomColor={visualColor}
+          nextInfo={nextInfo}
+        />
+        <Button
+          randomColor={visualColor}
+          nextInfo={nextInfo}
+        />
+      </article>
     </div>
   )
 }
