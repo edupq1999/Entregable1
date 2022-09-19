@@ -1,0 +1,31 @@
+:root{
+    --background: aliceblue;
+}
+.card{
+    background-color: var(--background);
+    width: 50%;
+    border-radius: 15px;
+    padding: 15px;
+}
+.card_autor{
+    width: max-content;
+}
+.card_button,
+.card_autor{
+    margin-left: auto;
+    margin-top: 15px;
+}
+.card_button{
+    display: block;
+    margin-left: auto;
+    color: var(--background);    
+    width: 30px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: unset;
+}
+.card_button:hover{
+    filter: brightness(1.3);
+    transform: scale(1.05);
+    transition: 100ms;
+}
