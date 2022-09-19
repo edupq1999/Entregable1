@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import './App.css'
-import Button from './components/button'
 import QuoteBox from './components/QuoteBox'
 import data from './json/quotes.json'
 import colors from './utils/color.js'
