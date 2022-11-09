@@ -1,5 +1,5 @@
 import React from 'react'
-import './quotestyle.css'
+import './styles/button.css'
 
 const Button = ({randomColor, nextInfo}) => {
 
@@ -9,7 +9,7 @@ const Button = ({randomColor, nextInfo}) => {
             style={{backgroundColor: randomColor}}
             className='card_button'
             onClick={nextInfo}
-        >&#62;</button>
+        >Next autor</button>
     
   )
 }

@@ -1,4 +1,3 @@
-
 *{
   margin: 0;
   padding: 0;
@@ -8,14 +7,20 @@
   width: 100%;
   height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: 1s;
 }
 .container{
   background-color: aliceblue;
-  width: 50%;
+  width: 80%;
+  min-width: 300px;
+  max-width: 800px;
   border-radius: 15px;
-  padding: 15px;
-  
+  padding: 30px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: 1px 1px 10px -2px black;
 }

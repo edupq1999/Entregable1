@@ -1,0 +1,15 @@
+:root{
+    --background: aliceblue;
+}
+.card_autor{
+    width: max-content;
+}
+.card_button,
+.card_autor{
+    margin-left: auto;
+    margin-top: 10px;
+}
+.card_autor,
+.card_phrase{
+    transition: 1s;
+}
